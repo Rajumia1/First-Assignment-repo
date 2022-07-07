@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Gentium Book Plus', serif;
+
+
+}
+
+.banner-card {
+    position: relative;
+
+}
+
+.banner-card img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-text {
+    position: absolute;
+    top: 0;
+    top: left;
+    color: hwb(51 3% 5%);
+    padding: 20%;
+    text-align: center;
+    font-weight: 900;
+
+}
+
+.header {
+    font-size: 50px;
+}
+
+.inform {
+    font-size: 20px;
+}
+
+.donate-button {
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 40px;
+    border-radius: 5%;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 700;
+
+    position: relative;
+    top: 50px;
+
+}
+
+.Donate-time {
+    text-align: center;
+    font-weight: 700;
+}
+
+.main-theame {
+    font-size: 50px;
+}
+
+
+.donate-amount ul li {
+    display: inline-block;
+
+    padding: 4%;
+}
+
+li {
+    position: relative;
+    left: 20%;
+}
+
+.edit {
+    border: 1px solid orange;
+    background-color: bisque;
+    color: red;
+}
+
+.other-amount {
+    text-align: center;
+    color: darkgrey;
+    padding: 4%;
+
+}
+
+hr {
+    width: 100%;
+}
+
+.donate-plan {
+    text-align: center;
+    padding: 5%;
+    font-weight: 700;
+}
+
+.donate-host {
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.experience-item {
+
+    width: 550px;
+    height: auto;
+
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 2px;
+    box-shadow: 40px 40px 100px gray;
+    border-radius: 10px;
+
+
+}
+
+
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 250px;
+
+}
+
+#Full-Stack {
+    border-left: 5px solid orange;
+}
+
+#Baby-Web {
+    border-left: 7px solid #00ff4c;
+}
+
+#child-Web {
+    border-left: 7px solid hsl(244, 100%, 50%);
+}
+
+.half-width1 {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 8%;
+
+
+
+}
+
+
+.half-width img {
+    width: 60%;
+}
+
+.anchor-link2 {
+    position: relative;
+    top: 100px;
+
+    text-decoration: none;
+    padding: 15px 50px;
+    color: white;
+    font-weight: 700;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.updates {
+    text-align: center;
+
+}
+
+.get-heads {
+    font-size: 50px;
+}
+
+.email-button {
+
+    text-align: center;
+    margin: 40px;
+    padding: 2%;
+    border: 10px;
+
+    background-color: burlywood;
+
+
+}
+
+input {
+    position: relative;
+    left: 1%;
+    border: none;
+    padding: 12px;
+}
+
+button {
+
+
+    border: none;
+    padding: 12px;
+    background-color: orange;
+    color: white;
+}
+
+.mid {
+    text-align: center;
+    background-color: black;
+    color: fuchsia;
+    padding: 1%;
+}
+
+.last {
+    color: aliceblue;
+}
